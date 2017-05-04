@@ -24,6 +24,7 @@ public class Mario extends MovingImage {
 		// WALK!
 		
 		x+=dir*10;
+		System.out.println("WALK");
 	}
 
 	public void jump() {
